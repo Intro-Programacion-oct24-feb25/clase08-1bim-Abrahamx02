@@ -29,7 +29,7 @@ public class Ejemplo09 {
 
         do {
             System.out.println("Ingrese calificaciones, solo valor entero");
-            nota = entrada.nextInt(); 
+            nota = entrada.nextInt();
 
             // agrego valor al acumulador
             suma = suma + nota;
@@ -45,7 +45,7 @@ public class Ejemplo09 {
             salida = entrada.nextInt(); // -111
 
             if (salida == -111) { // True
-                bandera = false; 
+                bandera = false;
             }
 
         } while (bandera); // (bandera==true)
